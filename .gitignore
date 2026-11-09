@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Large data directories & files (~1.1GB, raw PDF/XML filings & processed corpora)
+data/raw/
+data/processed/
+data/Panel/*.csv
+data/Panel/*.swp
+data/qa/*.csv
+data/qa/*.json
+
+# Trash & scratch
+trash/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Editor & OS files
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints

@@ -1,0 +1,7 @@
+company_id,company_name,sector,fiscal_year,pdf_found,pdf_url_or_path,xbrl_found,xbrl_url_or_path,notes
+INE009A01021,Infosys Limited,IT Services & Consulting,FY2024-25,TRUE,data/raw/filings/Infosys-BRSR.pdf,TRUE,data/raw/filings/Infosys.xml,"Large-cap assured; extracted from Integrated Annual Report 2024-25 pp. 160-208; XBRL from BSE/NSE"
+INE467B01029,Tata Consultancy Services Limited,IT Services & Consulting,FY2024-25,TRUE,data/raw/filings/TCS_BRSR.pdf,TRUE,data/raw/filings/TCS.xml,"Large-cap assured; filing notice + BRSR pp. 127-168 from Annual Report; XBRL from BSE/NSE"
+INE669C01036,Tech Mahindra Limited,IT Services & Consulting,FY2024-25,TRUE,data/raw/filings/techMahindra-BRSR.pdf,TRUE,data/raw/filings/Tech_Mahindra.xml,"Large-cap; BRSR section from Annual Report pp. 315-356; XBRL from BSE/NSE"
+INE949L01017,AU Small Finance Bank Limited,Banking & Financial Services,FY2024-25,TRUE,data/raw/filings/AU_BANK_BRSR-2025.pdf,TRUE,data/raw/filings/AU_Bank.xml,"Mid-cap; standalone BRSR report (44 pages); XBRL from BSE/NSE"
+INE073K01018,Sona BLW Precision Forgings Limited,Auto Components & Manufacturing,FY2024-25,TRUE,data/raw/filings/Sonacoms.pdf,TRUE,data/raw/filings/Sonacoms.xml,"Small-cap / smaller top-1000 (Sona Comstar); standalone BRSR report (48 pages); XBRL from BSE/NSE"
+

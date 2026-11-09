@@ -1,0 +1,23 @@
+# BRSR Analysis Pipeline Dependencies
+
+# --- Extraction (Layers 1-2) ---
+requests>=2.31.0        # scrape_nse_brsr.py, download_filings.py
+pypdf>=4.0.0
+pdfplumber>=0.10.0
+lxml>=5.0.0             # optional: xbrl_inspect.py falls back to xml.etree if absent
+
+# --- Data handling ---
+pandas>=2.0.0
+numpy>=1.26.0
+scipy>=1.11.0
+
+# --- Linguistic preprocessing (Layer 4) ---
+spacy>=3.7.0
+# spaCy English model is NOT installable from this file. Run once after install:
+#   python -m spacy download en_core_web_sm
+textstat>=0.7.3         # readability: Flesch-Kincaid, Gunning Fog, Coleman-Liau (clarity component)
+
+# --- Index construction & econometrics (planned: quality_index.py, merge_panel.py) ---
+scikit-learn>=1.4.0     # TF-IDF / cosine similarity for boilerplate detection
+statsmodels>=0.14.0     # OLS / fixed-effects checks
+linearmodels>=5.4       # panel regressions with firm & year effects
